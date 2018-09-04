@@ -5,7 +5,9 @@ I used reactjs v16(reactrouter), bootstrap for design, enzym v3 / jest for test 
 To start running this application first run 'npm install'
 
 To Run project 'npm start'
+
 To Test 'npm test'
+
 To create production package 'npm build'
 
 I also change code in API project to enable CORS to be able to accept request from another domain/port. I currently AllowedAllOrigins (since I used different port while developing) by using this code blocking
