@@ -2,6 +2,8 @@
 
 I used reactjs v16(reactrouter), bootstrap for design, enzym v3 / jest for test and webpack behind the scene.
 
+To start running this application first run 'npm install'
+
 To Run project 'npm start'
 To Test 'npm test'
 To create production package 'npm build'
