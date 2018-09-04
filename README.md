@@ -7,7 +7,7 @@ To Test 'npm test'
 To create production package 'npm build'
 
 I also change code in API project to enable CORS to be able to accept request from another domain/port. I currently AllowedAllOrigins (since I used different port while developing) by using this code blocking
-
+```
 public void ConfigureServices(IServiceCollection services)
   {
       services.AddCors(options => options.AddPolicy("AllowAll", p => p.AllowAnyOrigin()
@@ -38,7 +38,7 @@ public void ConfigureServices(IServiceCollection services)
       //app.UseHeaderAuthorization();
       app.UseMvc();
   }
-
+```
 
 I wrote couple of tests for login page since the most important part for UI but I did not make really complex tests like mocking data.
 
